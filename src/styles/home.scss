@@ -1,0 +1,55 @@
+.homePage{
+  background-image: url(/img/nunu/homepage_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #181818;
+  margin: unset;
+  &-second{
+    footer{
+      background-color: #202022 !important;
+    }
+  }
+  .main {
+    display: block;
+  }
+
+  .section.section-2 {
+    margin-top: 500px;
+  }
+
+  .tradingview-widget-copyright {
+    display: none !important
+  }
+
+  footer {
+    display: block;
+  }
+
+  /* 影片播放 */
+  .buttonBar,
+  .mb_YTPBar .mb_YTPseekbar,
+  .mb_YTPBar .mb_YTPLoaded,
+  .mb_YTPBar .mb_YTPProgress,
+  .mb_YTPBar {
+    display: none;
+    background: transparent;
+  }
+
+  .mbYTP_wrapper {
+    filter: brightness(0.4) hue-rotate(132deg);
+    /* mix-blend-mode: exclusion; */
+    pointer-events: none !important;
+  }
+
+  #headWeb{
+    background: #202022 !important;
+    .right-index-link-block-highlight {
+      color: #835D33 !important;
+    }
+  }
+}
+
+.dashboardContainer{
+  max-width: unset !important;
+}

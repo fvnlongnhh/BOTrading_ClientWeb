@@ -1,0 +1,75 @@
+.loginPage {
+  color: #fff;
+  background-image: url(/img/nunu/login_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* position: relative; */
+  background-color: #181818;
+  .sweet-alert {
+    width: auto;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 15px;
+    right: 15px;
+    }
+    
+    .text-block a {
+    color: #ffeb3c;
+    }
+    
+    .text-block a:hover {
+    color: #ff3b3b;
+    }
+    
+    a {
+    color: #ffffff;
+    }
+    
+    #toTop {
+    display: none !important;
+    }
+    
+    .container {
+    max-width: 1200px;
+    }
+    
+    footer {
+    display: none !important;
+    }
+    
+    input {
+    border-radius: 10px;
+    padding: 0 15px;
+    }
+    
+    .web-center-block {
+    margin: 20px auto;
+    }
+    
+    @media screen and (min-width: 1024px) {
+    /* .web-right-block {
+    width: 60%;
+    margin-left: 20%;
+    padding: 0;
+    padding: 22px;
+    background: #00000099;
+    } */
+    
+    form h1 {
+    margin-top: 0;
+    }
+    
+    .input-verification-code-block {
+    padding: 0;
+    }
+    
+    .full-page .web-right-block {
+    margin-bottom: 0;
+    }
+    
+    }
+}
+
+

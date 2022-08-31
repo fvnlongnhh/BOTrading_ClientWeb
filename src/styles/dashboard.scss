@@ -1,0 +1,110 @@
+.dashboard{
+  height: calc(100vh - 51px);
+  overflow: hidden;
+  header {
+    background: #181818 !important;
+    }
+    
+    .main {
+    display: flex;
+    width: 100%;
+    }
+    
+    .container {
+    max-width: unset;
+    }
+    
+    .control-panel {
+    width: 370px;
+       
+    overflow: hidden;
+    }
+    
+    .game-panel {
+    // width: calc(100% - 421px);
+    //     height: calc(100vh - 110px);
+    //     border: none;
+    //     margin-top: 58px;
+    // overflow: hidden;
+    }
+    
+  /* 移至最上方 */
+  #toTop {
+    display: none !important;
+  }
+
+  header {
+    display: none;
+  }
+
+  footer {
+    display: none;
+  }
+
+  .area {
+    margin-top: 60px;
+  }
+
+  .container {
+    padding: unset;
+    margin-left: 68px;
+  }
+
+  
+
+  .area .content {
+    background: transparent;
+    padding-bottom: 200px;
+    overflow-x: auto;
+    height: 100vh;
+    // display: unset;
+    width: 100%;
+  }
+  .mobile-title{
+    display: flex;
+    padding: 8px;
+    left: 68px;
+    width: 298px;
+    
+  }
+  .left,.right{
+    width: 100% !important ;
+  }
+
+  .form{
+    display: unset;
+  }
+
+  .precautions {
+    background: #e8e8e81c;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+  }
+  .parent-content{
+    padding-top: 55px;
+  }
+  .game-panel {
+    width: calc(100% - 368px);
+    height: calc(100vh - 110px);
+    border: none;
+    margin-top: 60px;
+    overflow-x: auto;
+    background-color: transparent;
+  }
+  
+  @media (max-width: 420px) {
+    .container{
+      margin-left: unset;
+      padding-left: 20px ;
+      padding-right: 20px;
+    }
+    .mobile-title{
+      left: 0px;
+      width: 100%;
+    }
+    .content{
+      padding-bottom: 200px !important;
+    }
+  }
+}

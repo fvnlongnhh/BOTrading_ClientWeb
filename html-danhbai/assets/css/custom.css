@@ -1,0 +1,175 @@
+.forgot-password{
+  padding: 20px 0 0 ;
+}
+.demos-inner li{
+  width: 23%;
+}
+
+.affilate-left{
+  width: 100%;
+}
+
+.tree ul {
+  list-style: none;
+  line-height: 2;
+}
+
+.tree ul, .tree #myUL {
+list-style-type: none;
+}
+
+.tree #myUL {
+margin: 0;
+padding: 0;
+}
+
+.tree .caret {
+cursor: pointer;
+-webkit-user-select: none; /* Safari 3.1+ */
+-moz-user-select: none; /* Firefox 2+ */
+-ms-user-select: none; /* IE 10+ */
+user-select: none;
+}
+
+.tree .caret::before {
+content: "\25B6";
+color: #7bb96c;
+display: inline-block;
+margin-right: 6px;
+}
+
+.tree .caret-down::before {
+-ms-transform: rotate(90deg); /* IE 9 */
+-webkit-transform: rotate(90deg); /* Safari */
+transform: rotate(90deg);  
+}
+
+.tree .nested {
+display: none;
+}
+
+.tree .active {
+display: block;
+}
+
+.tree ul li::after {
+  content: "";
+  width: 1px;
+  height: 100%;
+  background-color: #7bb96c;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  min-height: 15px;
+}
+
+.tree ul li::before {
+  content: "";
+  height: 1px;
+  width: 41px;
+  background-color: #7bb96c;
+  position: absolute;
+  top: 15px;
+  left: 0;
+  margin: auto;
+}
+
+.tree ul li:last-child::after {
+  height: 10px;
+}
+
+.tree ul li > li::before{
+  content: "";
+  height: 0px;
+  width: 0px;
+  background-color:#7bb96c;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+}
+
+.tree ul li > li::after{
+  content: "";
+  width: 0px;
+  height: 0px;
+  background-color: #7bb96c;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  min-height: 0px;
+}
+.tree ul li:last-child {
+  padding-bottom: 0;
+}
+.tree ul li {
+  padding-left: 44px;
+  position: relative;
+  box-sizing: border-box;
+  color:  #ffffffb8;
+  white-space: nowrap;
+float: none !important;
+text-align: left !important;
+width: auto !important;
+font-size: 15px;
+}
+.tree ul li > li {
+  padding-left: 0px;
+}
+.tree {
+  padding: 70px 0px 35px 50px;
+margin-bottom: 0px;
+  overflow-x: auto;
+}
+.lives-games-left li{
+  cursor: pointer;
+}
+embed#casinoGame{
+  width: 100%;
+  height: calc(100vh - 4px);
+  padding-top: 103px;
+}
+.transaction-history-inner table td img{
+  max-width: 50px;
+}
+.lg-hidden{
+  display: none !important;
+}
+.xs-hidden{
+  display: block !important;
+}
+.dashboard-top-right-in{
+  background: #fff;
+}
+.dashboard-top-right-in img {
+  filter: brightness(0);
+}
+.dashboard-top-right-in.active{
+  background: url(../images/wave-cut1.png) no-repeat right bottom #7cba6e;
+  background-size: auto;
+  background-size: 110%;
+}
+.dashboard-top-right-in.active img {
+  filter: brightness(10);
+}
+.dashboard-top-right-in.active h3, .dashboard-top-right-in.active h3 span small, .dashboard-top-right-in.active h3 span{
+  color: #fff;
+}
+.copy-buttons{
+  top: 0px;
+}
+@media(max-width: 767px){
+.lg-hidden{
+      display: block !important;
+  }
+  .xs-hidden{
+      display: none !important;
+  }
+
+  embed#casinoGame {
+      height: calc(100vh);
+      padding-top: 50px;
+  }
+}
